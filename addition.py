@@ -2,7 +2,7 @@ def add(a,b):
     return a+b
 if __name__== "__main__":
     import sys
-    if len(sys.argv) != 3:
+    if len(sys.argv) == 3:
         script_name = sys.argv[0]
         x=int(sys.argv[1])
         y=int(sys.argv[2])
